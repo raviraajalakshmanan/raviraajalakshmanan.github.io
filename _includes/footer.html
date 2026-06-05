@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-links">
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+      {% endif %}
+      {% if site.author.twitter %}
+        <a href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noopener">Twitter/X</a>
+      {% endif %}
+      <a href="{{ '/contact' | relative_url }}">Contact</a>
+    </div>
+    <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</p>
+  </div>
+</footer>

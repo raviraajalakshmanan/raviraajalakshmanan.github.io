@@ -1,0 +1,37 @@
+title: RaviRaaja Lakshmanan
+description: Engineer. Researcher. Builder.
+url: "https://raviraaja.github.io"
+baseurl: ""
+author:
+  name: RaviRaaja Lakshmanan
+  email: raviraajalakshmanan@gmail.com
+  github: raviraajalakshmanan
+  twitter: raviraajal
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+nav_links:
+  - title: Portfolio
+    url: /portfolio
+  - title: Blog
+    url: /blog
+  - title: Bookshelf
+    url: /bookshelf
+  - title: Papers
+    url: /papers
+  - title: Contact
+    url: /contact
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
