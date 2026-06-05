@@ -85,7 +85,7 @@ It was product, engineering, content, operations, and debugging production issue
 
 ## Education
 
-**M.Tech** — National Institute of Technology Karnataka, Surathkal
+**MTech in Computer Science & Information Security** — National Institute of Technology Karnataka, Surathkal
 
 ---
 
